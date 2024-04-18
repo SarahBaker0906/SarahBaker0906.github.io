@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 设置页面编码为UTF-8 -->
+        <meta charset="utf-8">
+        <!-- 设置页面标题 -->
+        <title>消防的知识</title>
+        <style>
+                        /* 重置页面基本样式,去除默认边距、内边距和列表样式 */
+                        body,ul,li{
+                margin:0;
+                padding:0;
+                list-style: none;
+            }
+
+            /* 设置页面背景颜色过渡 */
+            body{
+                background: linear-gradient(to bottom, #ff6b08, #e53935, #ff9800, #f44336, #ff5722, #e64a19);
+                font-family: '微软雅黑';
+            }
+
+            /* 设置导航栏样式 */
+            #navbar{
+                width:100%;
+                height:42px;
+                background:rgb(53, 25, 6);
+            }
+
+            /* 设置导航菜单列表样式,使其水平居中 */
+            #navbar ul{
+                background:rgb(233, 236, 10);
+                width:100%;
+                margin: 0 auto; /* 水平居中 */
+            }
+
+            /* 设置每个一级菜单项的样式,包括宽度、高度、水平排列、相对定位和鼠标样式 */
+            #navbar ul li{
+                width:33.33%;
+                height:42px;
+                display: inline-block;
+                text-align: center;
+                position:relative;
+                cursor:pointer;
+            }
+
+            /* 使一级菜单项水平浮动 */
+            #navbar>ul>li{
+                float:left;
+            }
+
+            /* 设置导航链接的样式,包括去除下划线、字体颜色、垂直居中、字体大小,并且显示为块级元素 */
+            #navbar a{
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                line-height: 42px;
+                font-size: 14px;
+                display: block;
+                padding: 0 10px;
+            }
+
+            /* 设置选中状态下一级菜单项的样式,包括背景色、字体加粗、下划线 */
+            #navbar li.active{
+                background-color: #815151;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            /* 设置选中状态下链接文字的颜色为白色,字体加粗,下划线 */
+            #navbar li.active a{
+                color:#fff;
+                font-weight: bolder;
+                text-decoration: underline;
+            }
+
+            /* 设置鼠标悬停时一级菜单项的样式,包括背景色 */
+            #navbar li:hover{
+                background-color: #f2a6a6;
+            }
+
+            /* 设置鼠标悬停时链接文字的颜色为白色,字体加粗,下划线 */
+            #navbar li:hover a{
+                color: #fff;
+                font-weight: bolder;
+                text-decoration: underline;
+            }
+            
+            .container {
+              max-width: 80%;
+              margin: 0 auto;
+              padding: 50px 20px;
+            }
+            
+            h1, h2 {
+              text-align: center;
+              color: #fff;
+              font-weight: bold;
+            }
+            h3 {
+              text-align: left;
+              color: #fff;
+              font-weight: bold;
+            }
+            p {
+              text-align: justify;
+              color: #fff;
+              font-weight: bold;
+            }
+
+            img {
+              display: block;
+              max-width: 60%;
+              height: auto;
+              margin: 30px auto;
+            }
+          </style>
+        </head>
+        <body>
+            <!-- 创建导航栏 -->
+        <nav id="navbar">
+          <!-- 创建导航菜单列表 -->
+          <ul>
+              <!-- 第一个导航项 -->
+              <li>
+                  <!-- 创建导航链接 -->
+                  <a href="消防的含义.html">消防的含义</a>
+              </li>
+              <!-- 第二个导航项 -->
+              <li>
+                  <!-- 创建导航链接 -->
+                  <a href="消防的知识.html">消防的知识</a>
+              </li>
+              <!-- 第三个导航项 -->
+              <li>
+                  <!-- 创建导航链接 -->
+                  <a href="消防的口诀.html">消防的口诀</a>
+              </li>
+          </ul>
+        </nav>
+
+          <div class="container">
+            <h1>消防的知识</h1>
+            <h2>
+                燃烧与火灾
+            </h2>
+            <p>1.燃烧的必备条件：</br>
+                可燃物、助燃物、温度，无焰燃烧还要求有未受抑制的链式反应。</br>
+                2.火灾、闪燃、阴燃、爆燃、自燃及闪点、燃点、自燃点的定义：</br>
+                火灾：在时间和空间上失去控制的燃烧所造成的灾害。</br>
+                闪燃：在可燃液体（固体）表面上挥发的蒸汽与空气混合达到一定浓度后，遇明火产生的一闪即灭的燃烧现象。</br>
+                阴燃：没有火焰的缓慢燃烧现象。</br>
+                爆燃：以亚音速传播的爆炸。</br>
+                自燃：可燃物质在没有外部明火焰等火源的作用下，因受热或自身发热并畜热所产生的自行燃烧现象。</br>
+                闪点：在规定的实验条件下，可燃液体（固体）能放出足量的蒸汽并在容器内的液体（固体）表面处于空气形成可燃混合物的最低温度。</br>
+                燃点：在规定的实验条件下，液体或固体能发生持续燃烧的最低温度。</br>
+                自燃点：在规定的条件下，可燃物质产生的最低温度。</br>
+                3.火灾分为六类：</br>
+                按照国家标准GB、T4968-2008《火灾分类》的规定，把火灾分为A、B、C、D、E、F六类。</br>A类火灾：固体物质火灾；</br>B类火灾：液体物质火灾；</br>C类火灾：气体火灾；</br>D类火灾：金属火灾；</br>E类火灾：带电设备火灾；</br>F类火灾：烹饪器具内的烹饪物（如动植物油脂）火灾。</br>
+                4.灭火的基本原理可以归纳为四个方面：冷却、窒息、隔离和化学抑制。</br>
+                5.可燃液体的燃烧特点：</br>
+                流体是否发生燃烧、燃烧速率的高低与液体的蒸汽压、闪点、沸点和蒸发速率等性质有关。</br>
+                6.可燃固体的燃烧特点：</br>
+                固体可燃物必须经过受热、蒸发、热分解，固体上方可燃气体浓度达到燃烧极限，才能持续不断发生燃烧。</br>
+                7.热传播有三种途径：</br>
+                热传导、热对流、热辐射。</br>
+                8.氧指数：</br>
+                在规定条件下，固体试样在氧、氮混合气流中，维持平稳燃烧所需的最低含氧量。以氧气所占体积百分数的数值表示。</br>
+        </p>
+            <img src="../images/huizhang.jpg" alt="中国消防救援徽章">
+            <h2>爆炸</h2>
+        <p>
+            物理爆炸、化学爆炸、爆炸极限、爆炸上限、爆炸下限的概念</br>
+            物理爆炸：</br>
+            由于液体变成气体或者气体迅速膨胀，压力急速增加，并大大超过容器的极限压力而发生的爆炸。</br>
+            化学爆炸：</br>
+            因物质本身发生化学反应，并产生大量气体和高温，而发生的爆炸。</br>
+            爆炸极限：</br>
+            可燃气体、蒸汽或粉尘与空气混合后，遇火产生爆炸的最高或最低浓度。</br>
+            爆炸上限：</br>
+            可燃气体、蒸汽或粉尘与空气组成的混合物，能使火焰传播的最高浓度。</br>
+            爆炸下限：</br>
+            可燃气体、蒸汽或粉尘与空气组成的混合物，能使火焰传播的最低浓度。</br>
+        </p>
+            <h3>粉尘爆炸的特点</h3>
+        <p>
+            （1）多次爆炸是粉尘爆炸的最大特点；</br>
+            （2）粉尘爆炸所需的最小点火能量较高，热表面点燃较为困难；</br>
+            （3）与可燃气体爆炸相比，粉尘爆炸压力上升较缓和，较高压力持续时间长，释放的能量大，破坏力强。
+        </p>
+        <img src="../images/shijing.jpg" alt="消防演练实景图片">
+
+          </div>
+        </body>

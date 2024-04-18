@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 设置页面编码为UTF-8 -->
+        <meta charset="utf-8">
+        <!-- 设置页面标题 -->
+        <title>消防的含义</title>
+        <style>
+            /* 重置页面基本样式,去除默认边距、内边距和列表样式 */
+            body,ul,li{
+                margin:0;
+                padding:0;
+                list-style: none;
+            }
+
+            /* 设置页面背景颜色过渡 */
+            body{
+                background: linear-gradient(to bottom, #ff6b08, #e53935, #ff9800, #f44336, #ff5722, #e64a19);
+                font-family: '微软雅黑';
+            }
+
+            /* 设置导航栏样式 */
+            #navbar{
+                width:100%;
+                height:42px;
+                background:rgb(53, 25, 6);
+            }
+
+            /* 设置导航菜单列表样式,使其水平居中 */
+            #navbar ul{
+                background:rgb(233, 236, 10);
+                width:100%;
+                margin: 0 auto; /* 水平居中 */
+            }
+
+            /* 设置每个一级菜单项的样式,包括宽度、高度、水平排列、相对定位和鼠标样式 */
+            #navbar ul li{
+                width:33.33%;
+                height:42px;
+                display: inline-block;
+                text-align: center;
+                position:relative;
+                cursor:pointer;
+            }
+
+            /* 使一级菜单项水平浮动 */
+            #navbar>ul>li{
+                float:left;
+            }
+
+            /* 设置导航链接的样式,包括去除下划线、字体颜色、垂直居中、字体大小,并且显示为块级元素 */
+            #navbar a{
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                line-height: 42px;
+                font-size: 14px;
+                display: block;
+                padding: 0 10px;
+            }
+
+            /* 设置选中状态下一级菜单项的样式,包括背景色、字体加粗、下划线 */
+            #navbar li.active{
+                background-color: #815151;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            /* 设置选中状态下链接文字的颜色为白色,字体加粗,下划线 */
+            #navbar li.active a{
+                color:#fff;
+                font-weight: bolder;
+                text-decoration: underline;
+            }
+
+            /* 设置鼠标悬停时一级菜单项的样式,包括背景色 */
+            #navbar li:hover{
+                background-color: #f2a6a6;
+            }
+
+            /* 设置鼠标悬停时链接文字的颜色为白色,字体加粗,下划线 */
+            #navbar li:hover a{
+                color: #fff;
+                font-weight: bolder;
+                text-decoration: underline;
+            }
+
+            .container {
+              max-width: 1200px; /* 页面最大宽度设为1200px */
+              margin: 0 auto;
+              padding: 50px 20px;
+              display: flex; /* 使用flexbox布局 */
+              align-items: center; /* 垂直居中 */
+            }
+            
+            h1 {
+              text-align: center;
+              font-size: 34px;
+              color: #fff;
+              font-weight: bold;
+            }
+            p {
+                text-align: justify;
+                font-size: 24px;
+                color: #fff;
+              font-weight: bold;
+            }
+
+            /* 修改图片和文字的位置和宽度 */
+            .image-container {
+              width: 40%; /* 图片宽度占页面宽度的40% */
+              margin-right: 10%; /* 图片和文字之间的间隔占页面宽度的10% */
+              margin-left: 5%; /* 图片离页面左边的距离占页面宽度的5% */
+            }
+
+            .image-container img {
+              max-width: 100%;
+              height: auto;
+            }
+
+            .text-container {
+              width: 40%; /* 文字宽度占页面宽度的40% */
+              margin-right: 5%; /* 文字整体离页面右边的距离占页面宽度的5% */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 创建导航栏 -->
+        <nav id="navbar">
+            <!-- 创建导航菜单列表 -->
+            <ul>
+                <!-- 第一个导航项 -->
+                <li>
+                    <!-- 创建导航链接 -->
+                    <a href="消防的含义.html">消防的含义</a>
+                </li>
+                <!-- 第二个导航项 -->
+                <li>
+                    <!-- 创建导航链接 -->
+                    <a href="消防的知识.html">消防的知识</a>
+                </li>
+                <!-- 第三个导航项 -->
+                <li>
+                    <!-- 创建导航链接 -->
+                    <a href="消防的口诀.html">消防的口诀</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="image-container">
+                <img src="../images/xiaofang.jpeg" alt="消防安全,预防为主,生命至上">
+            </div>
+            <div class="text-container">
+                <h1>消防的含义</h1>
+                <p>"消防"即是消除隐患,预防灾患（即预防和解决人们在生活、工作、
+                学习过程中遇到的人为与自然、偶然灾害的总称）。</br>
+                当然消防的意思在人们认识初期是：（扑灭）火灾的意
+                思。</p>
+            </div>
+        </div>
+    </body>
+</html>

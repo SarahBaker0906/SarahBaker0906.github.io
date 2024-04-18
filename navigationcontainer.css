@@ -1,0 +1,79 @@
+/* 重置页面基本样式,去除默认边距、内边距和列表样式 */
+body,ul,li{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+/* 设置页面背景图片,使其不重复并填满整个页面,同时设置字体 */
+body{
+    background: url("../images/bodybg.jpg") no-repeat;
+    background-size: cover;
+    font-family: '微软雅黑';
+}
+
+/* 设置导航栏样式 */
+#navbar{
+    width:100%;
+    height:42px;
+    background:rgb(246, 115, 28);
+}
+
+/* 设置导航菜单列表样式,使其水平居中 */
+#navbar ul{
+    background:rgb(233, 236, 10);
+    width:100%;
+    margin: 0 auto; /* 水平居中 */
+}
+
+/* 设置每个一级菜单项的样式,包括宽度、高度、水平排列、相对定位和鼠标样式 */
+#navbar ul li{
+    width:33.33%;
+    height:42px;
+    display: inline-block;
+    text-align: center;
+    position:relative;
+    cursor:pointer;
+}
+
+/* 使一级菜单项水平浮动 */
+#navbar>ul>li{
+    float:left;
+}
+
+/* 设置导航链接的样式,包括去除下划线、字体颜色、垂直居中、字体大小,并且显示为块级元素 */
+#navbar a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 42px;
+    font-size: 14px;
+    display: block;
+    padding: 0 10px;
+}
+
+/* 设置选中状态下一级菜单项的样式,包括背景色、字体加粗、下划线 */
+#navbar li.active{
+    background-color: #f2a6a6;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* 设置选中状态下链接文字的颜色为白色,字体加粗,下划线 */
+#navbar li.active a{
+    color:#fff;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* 设置鼠标悬停时一级菜单项的样式,包括背景色 */
+#navbar li:hover{
+    background-color: #f2a6a6;
+}
+
+/* 设置鼠标悬停时链接文字的颜色为白色,字体加粗,下划线 */
+#navbar li:hover a{
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: underline;
+}
