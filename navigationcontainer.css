@@ -7,7 +7,7 @@ body,ul,li{
 
 /* 设置页面背景图片,使其不重复并填满整个页面,同时设置字体 */
 body{
-    background: url("../images/bodybg.jpg") no-repeat;
+    background: url("images/bodybg.jpg") no-repeat;
     background-size: cover;
     font-family: '微软雅黑';
 }
